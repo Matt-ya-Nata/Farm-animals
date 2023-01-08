@@ -8,32 +8,32 @@ for (var i = 0; i<numberOfDrumButtons; i++ ){
     var buttonInnerHTML = this.innerHTML;
 
     switch (buttonInnerHTML) {
-      case "a":
+      case "Cow":
       var cow = new Audio("sounds/cow-sound.mp3");
             cow.play();
             break;
-      case "s":
+      case "Donkey":
        var donkey = new Audio("sounds/donkey-sound.mp3");
             donkey.play();
             break;
-        case "d":
+        case "Horse":
         var horse = new Audio("sounds/horse-sound.mp3");
             horse.play();
             break;
-        case "f":
+        case "Goat":
         var goat = new Audio("sounds/goat-sound.mp3");
             goat.play();
             break;
-        case "g":
+        case "Sheep":
         var sheep = new Audio("sounds/sheep-sound.mp3");
         sheep.play();
         break;
-        case "h":
+        case "Chicken":
             var chicken = new Audio("sounds/chicken-sound.mp3");
             chicken.play();
             break;
 
-      case "j":
+      case "Duck":
             var duck = new Audio("sounds/duck-sound.mp3");
             duck.play();
             break;
