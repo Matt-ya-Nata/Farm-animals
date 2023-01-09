@@ -9,6 +9,10 @@ h1 {
     font-family: sans-serif;
     text-shadow: 3px 0 black;
 }
+p{
+    color: white;
+    font-size: 2rem;
+}
 
 .cow{
     background-image: url("images/cow-pic.jpg");
@@ -46,7 +50,7 @@ h1 {
   height: 150px;
   text-align: center;
   margin: 10px;
-  background-color: white;
+ 
 }
 
 footer {
